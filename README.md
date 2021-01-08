@@ -41,14 +41,14 @@ Publish the website in the given URL.
     <div class="menu">
         <div class="menuitem"><a href="/home">Home</a></div> 
         <div class="menuitem"><a href="/products">Products</a></div> 
-        <div class="menuitem"><a>People</a></div>
-        <div class="menuitem"><a>Contact Us</a></div> 
+        <div class="menuitem"><a href="/people">People</a></div>
+        <div class="menuitem"><a href="/contact">contact</a></div> 
     </div><div class="content">
     {% block content %}    
     {% endblock  %}
     </div>
     <div class="footer">
-        Copyright © 2020 Silicon Private Limited, Developed by Obed Otto.
+        Copyright © balaji private limited
     </div>
     </div>
 </body>
@@ -63,7 +63,7 @@ Publish the website in the given URL.
 {% block content %}
     <div class="homecontent">    
     <h1>About Us</h1>
-    <img src="/static/img/building2.jpeg" alt="Building">
+    <img src="/static/img/v1.jpeg" alt="Building">
     <div class="contenttext">
     Silicon Pvt Ltd, provides a broad range of semiconductor and infrastructure software applications. Some of Silicon's core technologies and products include:
     <ul>
@@ -101,6 +101,75 @@ Publish the website in the given URL.
             <div class="itemname">1TB Laptop HDD</div>
             <div class="itemprice">Price: Rs.5000.00 </div>
         </div>
+        <div class="productitem">
+            <div class="itemimage">
+            <img src="/static/img/c3.jpeg"  alt="product image">
+            </div>
+            <div class="itemname">Gaming laptop with Joystick</div>
+            <div class="itemprice">Price: Rs.25000</div>
+        </div>
+        <div class="productitem">
+            <div class="itemimage">
+            <img src="/static/img/c4.jpeg"  alt="product image">
+            </div>
+            <div class="itemname">Macbook air</div>
+            <div class="itemprice">price: Rs.50000</div>
+        </div>
+         <div class="productitem">
+            <div class="itemimage">
+            <img src="/static/img/c5.jpeg"  alt="product image">
+            </div>
+            <div class="itemname">Xiaomi Notebook 14</div>
+            <div class="itemprice">price: Rs.70000</div>
+        </div>
+        <div class="productitem">
+            <div class="itemimage">
+            <img src="/static/img/c6.jpeg"  alt="product image">
+            </div>
+            <div class="itemname">Laptop with 16 gb ram</div>
+            <div class="itemprice">price: Rs.30000</div>
+        </div>
+        <div class="productitem">
+            <div class="itemimage">
+            <img src="/static/img/c7.jpeg"  alt="product image">
+            </div>
+            <div class="itemname">Laptop with HD display</div>
+            <div class="itemprice">price: Rs.50000</div>
+        </div>
+        <div class="productitem">
+            <div class="itemimage">
+            <img src="/static/img/c8.jpeg"  alt="product image">
+            </div>
+            <div class="itemname">Laptop with A14 bionic chip</div>
+            <div class="itemprice">price: Rs.50000</div>
+        </div>
+        <div class="productitem">
+            <div class="itemimage">
+            <img src="/static/img/c9.jpeg"  alt="product image">
+            </div>
+            <div class="itemname">Laptop with durability</div>
+            <div class="itemprice">price: Rs.20000</div>
+        </div>
+         <div class="productitem">
+            <div class="itemimage">
+            <img src="/static/img/c10.jpeg"  alt="product image">
+            </div>
+            <div class="itemname">Best gaming laptop</div>
+            <div class="itemprice">price: Rs.12000</div>
+        </div>
+         <div class="productitem">
+            <div class="itemimage">
+            <img src="/static/img/c11.jpeg"  alt="product image">
+            </div>
+            <div class="itemname">Laptop With Intel Core Processor</div>
+            <div class="itemprice">price: Rs.50000</div>
+        </div>
+         <div class="productitem">
+            <div class="itemimage">
+            <img src="/static/img/c12.jpeg"  alt="product image">
+            </div>
+            <div class="itemname">Laptop with  A14 bionic chip and IOS</div>
+            <div class="itemprice">price: Rs.50000</div>
     </div>
     </div>
 {% endblock  %}
@@ -115,4 +184,4 @@ Publish the website in the given URL.
 
 ![output](./static/img/report2.jpg)
 ## RESULT:
-Thus a website is designed for the chip manufacturing company and is hosted in the URL http://demo2.student.saveetha.in:8000/. HTML code is validated.
+Thus a website is designed for the chip manufacturing company and is hosted in the URL http://balaji.student.saveetha.in:8000/. HTML code is validated.
