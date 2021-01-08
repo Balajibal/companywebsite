@@ -175,21 +175,21 @@ Publish the website in the given URL.
 {% endblock  %}
 ```
 ## OUTPUT:
-![output](./static/img/o1.jpg)
+![output](./static/img/o1.png)
 
-![output](./static/img/o2.jpg)
+![output](./static/img/o2.png)
 
-![output](./static/img/o3.jpg)
+![output](./static/img/o3.png)
 
-![output](./static/img/o4.jpg)
+![output](./static/img/o4.png)
 
-![output](./static/img/o5.jpg)
+![output](./static/img/o5.png)
 
-![output](./static/img/o6.jpg)
+![output](./static/img/o6.png)
 
 ## CODE VALIDATION REPORT:
-![output](./static/img/r1.jpg)
+![output](./static/img/r1.png)
 
-![output](./static/img/r2.jpg)
+![output](./static/img/r2.png)
 ## RESULT:
 Thus a website is designed for the chip manufacturing company and is hosted in the URL http://balaji.student.saveetha.in:8000/. HTML code is validated.
